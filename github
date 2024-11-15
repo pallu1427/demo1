@@ -1,0 +1,31 @@
+login on github
+create a new repository on github
+copy repository url from github(then goto terminal)
+git clone <url> (paste the repo url.that is copied)
+cd <reponame>
+cd repo1(goto file manager and check that repository folder is created or not.if folder is created
+. then type some message into README.md fiile & save then goto terminal.
+git status
+git add.
+git commit-m"changes done"
+git  branch branch1
+git checkout branch1
+git push origin branch1
+(goto github:-right click=>setting=>Developer setting=>personal access token=>token classic=>generate new token=>generate new token classic=>click checkbox(except workflow)=>generate token=>
+copy id of token.)
+(goto terminal:-)
+get remote set-url origin http:paste token url
+gitgub.com/paste(username/reponame)
+goto github:
+github=>pull request option=>new pull request=>compaire=><branch=name>=>create pull request=>merge pull request=>confirm merge
+git status (if we want to make changes on main branch the add some content on README.md file &save it )
+git checkout main
+git add.
+git commit-m"change done"
+git pull origin main
+git push origin main
+git fetch origin main
+git pull origin main
+git add.
+git commit -m "changes done"
+git push origin main
