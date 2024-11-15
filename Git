@@ -1,20 +1,22 @@
 sudo apt install git
  git --version
-git config --global user.name pallavi
-git config --global user.email pallaviborade272000@gmail.com
-git init myrepo  (myrepo folder can be created into file manager
+git config --global user.name priyanka
+git config --global user.email elavandepriyankagmail.com
+git initmyrepo  (myrepo folder can be created into file manager
 cd myrepo (change directory)
-list -a
-touch sample.txt
+list -a (display hide file)
+touch sample.txt(first create new text file into folder and write anything in that file)
+git add sample.txt(add all file data)
 git add.
 git status
 git commit -m "first change"
-git log
-git branch "branch1"
-git checkout "branch1"
-touch newfile.txt
+git log(check history)
+git branch "branch1"(create new branch)
+git checkout "branch1"(checkout onto new branch)
+touch newfile.txt(create new file into folder)
 git add.
 git commit -m "second change"
 git status
 git checkout master
 git merge branch1
+
