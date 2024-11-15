@@ -1,0 +1,28 @@
+goto bitbucket-> login-> create repository=>click on clone -> copy url->paste urlon url->password
+How to create password=>seeting->personal bitbucket seeting=>App  password=>create app password=>copy id=>paste on terminal(Suppose reponame=>demo)
+Goto terminal=>paste the url
+cd demo
+touch sample.txt(add some content in file)
+git add.
+git commit-m"first commit"
+git status
+ls
+git branch branch1
+git checkout branch1
+git status
+ls
+git branch branch1
+git checkout branch1
+git status
+ls
+touch sample.txt
+git add.
+git commit-m"second commit"
+git status
+ls
+git push origin branch1
+goto bitbucket->goto repo->create pull request->merge
+git pull origin main
+git push origin main
+git fetch origin main
+git pull origin main
