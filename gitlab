@@ -1,8 +1,8 @@
 gitlab->account create->create project
 open gitlab->create a new project on gitlab->add some content in it->copy project url
 goto terminal->
-git clone<gitlab_url>
-cd project name
+git clone<gitlab_project_url>
+cd sample
 ls
 git branch branch1
 git checkout branch1
