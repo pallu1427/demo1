@@ -1,0 +1,26 @@
+gitlab->account create->create project
+open gitlab->create a new project on gitlab->add some content in it->copy project url
+goto terminal->
+git clone<gitlab_url>
+cd project name
+ls
+git branch branch1
+git checkout branch1
+ls
+touch demo.txt
+ls
+git checkout master
+ls
+git checkout branch1
+git add.
+git commit -m "first commit"
+ls
+git checkout master
+ls
+git push origin brancch1
+git checkout master
+ls
+git pull origin master
+ls
+
+create personal access token
