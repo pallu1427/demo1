@@ -1,13 +1,12 @@
 
-
 create one folder (demo) 
 (create two files in demo 1.html 2 Dockerfile)
 terminal --> touch index.html (open in text editor write a code)
              touch Dockerfile  --> FROM enginx
                                -->COPY index.html\user\share\enginx\html
 
-terminal --> sudo Docker build -t(project name)
-             sudo Docker images
-             sudo Docker run -d -p 8080:80(project_name)
+terminal -->sudo Docker build -t(project name)
+sudo Docker images
+sudo Docker run -d -p 8080:80(project_name)
 
 open browser --> 0.0.0.0:8080
