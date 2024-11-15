@@ -1,7 +1,7 @@
 sudo apt install git
  git --version
-git config --global user.name neha
-git config --global user.email ahire1185@gmail.com
+git config --global user.name pallavi
+git config --global user.email pallaviborade272000@gmail.com
 git init myrepo  (myrepo folder can be created into file manager
 cd myrepo (change directory)
 list -a
