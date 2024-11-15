@@ -1,1 +1,9 @@
-
+terminal=> sudo systemctl status jenkin
+new terminal=>
+  ngrok http 8080 => here we see the status of ngrok-> from that click on forwarding link and open a link on browser
+  or copy the link upto free app and paste it on a browser and open it
+click on visit site=> username=kkwgh
+                      password=srv001
+github=>
+   login on a github 
+  
