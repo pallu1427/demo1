@@ -4,6 +4,8 @@ create one folder (demo)
 terminal --> touch index.html (open in text editor write a code)
              touch Dockerfile  --> FROM enginx
                                -->COPY index.html\user\share\enginx\html
+                                  COPY . . 
+                                  EXPOSE 80 
 
 terminal -->sudo Docker build -t(project name)
 sudo Docker images
