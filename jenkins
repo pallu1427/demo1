@@ -1,9 +1,24 @@
-terminal=> sudo systemctl status jenkin
-new terminal=>
-  ngrok http 8080 => here we see the status of ngrok-> from that click on forwarding link and open a link on browser
-  or copy the link upto free app and paste it on a browser and open it
-click on visit site=> username=kkwgh
-                      password=srv001
+terminal =>sudo systemctl statuc jenkins
+new terminal=> 
+ngrok http 8080=>
+          here we see the status of ngrok-> from that click on forwarding link and opena link
+          on browser or copy the link upto free app and paste it on browser and open it
+click on visit site=>
+              username=kk wagh
+              password=srv001
 github=>
-   login on a github 
-  
+    login on github(on new window) => open repositiory that we want to build on a junkins=>
+     copy repo/project link from code(http)
+jenkins=>
+     click on new item=> enter item name(eg.demo) =>select freestyle project=>click ok
+     =>from source code management=> select git=paste the git repo url(that copy from github)
+     from branches to build(write main instead of master)=> from build trigger select github hook trigger for
+    giism pooling=>click apply save
+github=>
+    on repo=>click on   seeting=>click webhook=>add webhhok=>on payload url(copy thr url from
+   jenkins or terminal upto free app and paste here)(on this url add webhook/after free app)=>
+    select content type(appliaction/json)=>select send me everything=>click add webhook=> then
+    refresh(see green tick)=>click on build now(after successfully build =>click workspace and run
+   html file
+click config=>build steps=>select execute shell=>write commandd=>cp -r */var/www/html.=>applya abd save
+click build now
