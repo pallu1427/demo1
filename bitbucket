@@ -11,10 +11,6 @@ git branch branch1
 git checkout branch1
 git status
 ls
-git branch branch1
-git checkout branch1
-git status
-ls
 touch sample2.txt
 git add.
 git commit-m"second commit"
